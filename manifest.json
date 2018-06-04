@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "WebGlass",
+  "description": "Web Glass Chrome Application Version",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches" : [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
